@@ -10,5 +10,5 @@ services:
       context: .
       dockerfile: ./build/Dockerfile
     ports:
-      - 2345:2345
+      - 127.0.0.2:2345:2345
     container_name: qiita_go

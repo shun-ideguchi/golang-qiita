@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/shun-ideguchi/golang-qiita/internal/interface/handler"
 
 func main() {
-	fmt.Println("hello!")
+	handler.Execute()
 }
